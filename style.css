@@ -1,0 +1,115 @@
+body{
+background-color: gray;
+scroll-behavior: smooth;
+}
+
+
+nav{
+height: 110px;
+ background-color: gainsboro;
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* padding: 0px 12px; */
+}
+.change:hover{
+text-transform: capitalize;
+}
+.change{
+margin-bottom: 10px;
+
+}
+.para{
+padding-top: 60px;
+padding-left: 30px;
+text-align: center;
+font-weight: bold;
+font-size: 35px;
+
+}
+.parent:hover{
+transform: translate(0px, -8px);
+transition-duration: -4s;
+
+}
+
+.parent{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+cursor: pointer;
+/* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5); */
+/* flex-direction: row; */
+padding-top: 60px;
+
+
+
+
+}
+
+.main{   
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.box{
+height: 98px;
+width: 98px;
+border: 1px solid brown;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px;
+
+}
+.buttoncolor:hover{
+background-color: rgb(226, 19, 88);
+color: white;
+border: 1px solid rgb(226, 19, 88) ;
+text-decoration: underline;
+}
+.buttoncolor1:hover{
+background-color: black;
+color: white;
+text-decoration: underline;
+}
+.buttoncolor1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-left: 920px;
+}
+.buttoncolor{
+padding-left: 10px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-top: 5px;
+border-radius: 10px;
+border: 1px solid gainsboro;
+}
+.logo{
+/* padding-right: 18px; */
+
+}
+
+.heading1{
+font-size: 28px;
+font-weight: bold;
+padding-left: 25px;
+color:  rgb(226, 19, 88);;
+}
+/* .img1{
+height: 40px;
+width: 40px;
+padding-top: 20px;
+} */
+
+.card-img-top:hover{
+width: 320px;
+
+}
